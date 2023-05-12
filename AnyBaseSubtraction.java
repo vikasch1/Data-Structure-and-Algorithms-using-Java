@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class AnyBaseSubtraction {
+    //1212-256(8)
     public static void main(String[] args) {
         //1212-256
         Scanner s = new Scanner(System.in);
