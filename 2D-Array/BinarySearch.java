@@ -26,9 +26,35 @@ public class BinarySearch {
                 break;
 
             }
+            
 
         }
         System.out.print(foundat);
+//
+//        int n =s.nextInt();
+//        int []arr=new int[n];
+//        for(int i=0;i<arr.length;i++){
+//            arr[i]=s.nextInt();
+//        }
+//        int data=s.nextInt();
+//        int left=0;
+//        int right=arr.length-1;
+//        int fountat=0;
+//        while(left<=right){
+//            int mid=(left+right)/2;
+//            if(arr[mid]>data){
+//                right=mid-1;
+//
+//            }else if(arr[mid]<data){
+//                left=mid+1;
+//
+//
+//            }else{
+//                System.out.print("data found at"+mid);
+//            }
+//        }
+//
+//        while()
 
     }
 }
