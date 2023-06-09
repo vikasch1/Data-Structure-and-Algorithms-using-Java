@@ -69,4 +69,12 @@ public class power {
 
 
     }
+
+//    for(int i=1;i<=n;i+=c){
+//        for(int j=1;j<=c;j++){
+//            //do something
+//        }
+
+    // n/c*c=k.n=O(n)
+//    }
 }
