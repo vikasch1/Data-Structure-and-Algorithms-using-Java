@@ -27,7 +27,7 @@ public class FloodFill {
         if(sr==maze.length || sc==maze[0].length || sr==-1 || sc==-1 || maze[sr][sc]==1 || visited[sr][sc]==true){
             return;
         }else if(sr==maze.length-1 || sc==maze[0].length-1){
-            System.out.print(asf+" ");
+            System.out.print(asf);
             return;
         }
 
@@ -37,6 +37,7 @@ public class FloodFill {
         floodfill(maze,visited,sr,sc-1,asf+"l");
         floodfill(maze,visited,sr+1,sc,asf+"d");
         floodfill(maze,visited,sr,sc+1,asf+"r");
+        visited[sr][sc]=false;
 
 
 
