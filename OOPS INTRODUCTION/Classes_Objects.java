@@ -44,6 +44,13 @@ public class Classes_Objects {
         p2.name="rohan";
         p2.sayHi();
 
+        person p3=p2;
+        p3.name="amit";
+        p3.age=27;
+
+        p3.sayHi();
+        p2.sayHi();
+
 
 
     }
