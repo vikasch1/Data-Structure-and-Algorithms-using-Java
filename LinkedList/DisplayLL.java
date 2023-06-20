@@ -26,7 +26,22 @@ public class DisplayLL {
            }
            System.out.println();
        }
+       void addLast(int val){
+           Node node = new Node();
+           node.data=val;
+           node.next=null;
+           if(size==0){
+               head=tail=null;
+           }else{
+               tail.next=node;
+               tail=node;
 
+           }
+
+           size++;
+
+
+       }
     }
 
     public static void testList(LinkedList list) {
@@ -47,7 +62,7 @@ public class DisplayLL {
         while(str.equals("quit") == false){
             if(str.startsWith("addLast")){
                 int val = Integer.parseInt(str.split(" ")[1]);
-//                list.addLast(val);
+                list.addLast(val);
             }
             str = br.readLine();
         }
